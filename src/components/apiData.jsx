@@ -17,7 +17,7 @@ export default function ApiData() {
         body: JSON.stringify(data) // body data type must match "Content-Type" header
       });
       return response.json(); // parses JSON response into native JavaScript objects
-    }
+    },
 
     getData('https://24lajme.com/api/news').then(data => {
         console.log(data); // JSON data parsed by `data.json()` call
