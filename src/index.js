@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import App from "./App";
 import Header from "./components/header";
+import ApiData from "./components/apiData";
 import Post from "./components/post";
 import Footer from "./components/footer";
 import Home from "./routes/home";
@@ -23,6 +24,7 @@ render(
       <Route path="about" element={<About />} />
     </Routes>
     <Post />
+    <ApiData />
     <Footer />
   </BrowserRouter>,
   rootElement
