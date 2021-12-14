@@ -1,3 +1,4 @@
+import './components/apiData.jsx';
 import { render } from "react-dom";
 import {
   BrowserRouter,
