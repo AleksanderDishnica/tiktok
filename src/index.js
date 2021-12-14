@@ -1,3 +1,4 @@
+import './components/apiData.jsx';
 import { render } from "react-dom";
 import {
   BrowserRouter,
@@ -24,7 +25,6 @@ render(
       <Route path="about" element={<About />} />
     </Routes>
     <Post />
-    <ApiData />
     <Footer />
   </BrowserRouter>,
   rootElement
